@@ -5,9 +5,9 @@ public class MyApp {
 	public static void main(String[] args) {
 		
 		//create the object
-		Coach baseBallCoach = new BaseBallCoach();
+		Coach coach = new CricketCoach();
 		
 		//use the object	
-		System.out.println(baseBallCoach.getDailyWorkOut());	
+		System.out.println(coach.getDailyWorkOut());	
 	}
 }
